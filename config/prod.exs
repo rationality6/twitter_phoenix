@@ -12,8 +12,8 @@ use Mix.Config
 config :chirp, ChirpWeb.Endpoint,
   # url: [host: "example.com", port: 80],
 
-  http: [port: {:system, "PORT"}], # Possibly not needed, but doesn't hurt
-  url: [host: "${APP_NAME}.gigalixirapp.com", port: 443],
+  # http: [port: {:system, "PORT"}], # Possibly not needed, but doesn't hurt
+  url: [host: "https://turquoise-angry-chrysalis.gigalixirapp.com", port: 443],
 
   cache_static_manifest: "priv/static/cache_manifest.json"
 
